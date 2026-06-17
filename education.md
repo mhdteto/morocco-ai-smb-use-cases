@@ -1,25 +1,66 @@
-# AI Use Cases for Education
+# Education and Training — AI Use Cases
 
-## 1. WhatsApp FAQ bot
+## Overview
 
-Answer common questions about programs, schedules, pricing and registration steps.
+Schools and training centers can use AI to support admissions inquiries, organize program information and summarize feedback. Sensitive decisions about students should remain with qualified staff.
 
-## 2. Student inquiry classification
+## Common business problems
 
-Classify incoming inquiries by program interest, urgency and readiness to register.
+- Prospective students ask repetitive questions about programs and schedules.
+- Inquiry details are captured inconsistently.
+- Follow-ups are delayed during busy registration periods.
+- Feedback is collected but rarely summarized.
 
-## 3. Course summary generation
+## Practical AI use cases
 
-Generate clear course summaries from internal curriculum notes.
+| Use case | Business value | Complexity | Example tools |
+|---|---|---|---|
+| FAQ response assistance | High | Low | Approved FAQ + chatbot |
+| Inquiry classification | High | Medium | Forms + LLM + CRM |
+| Course summary generation | Medium | Low | Curriculum documents + LLM |
+| Follow-up draft assistant | Medium | Low | CRM + LLM + email |
+| Feedback summarization | Medium | Low | Survey export + LLM |
 
-## 4. Follow-up message assistant
+## Recommended first pilot
 
-Prepare follow-up messages for interested students or parents.
+Build an internal FAQ assistant from reviewed program, pricing, schedule and registration information. Staff should approve external answers and handle exceptions or sensitive questions.
 
-## 5. Feedback analysis
+## Example Client Scenario
 
-Summarize student feedback to identify course improvements.
+### Client type
 
-## Suggested first workflow
+Private language and professional training center.
 
-Start with FAQ automation for admissions or program questions, with a human fallback for sensitive cases.
+### Problem
+
+The admissions team repeatedly answers the same program questions while trying to identify candidates who need personal guidance.
+
+### Workflow
+
+Incoming questions are matched to approved FAQ content. AI drafts an answer, identifies missing information and flags cases requiring staff review.
+
+### Tools used
+
+- Approved FAQ document.
+- Website form or chatbot.
+- LLM.
+- Spreadsheet or CRM.
+
+### Expected output
+
+- Response draft.
+- Program category.
+- Missing information.
+- Suggested next step.
+- Human escalation flag.
+
+### Business impact
+
+The center can improve response consistency and test whether routine questions take less staff time.
+
+## Risks and limits
+
+- Prices, schedules and admission rules can become outdated.
+- AI should not make admissions, grading or disciplinary decisions.
+- Student and parent data needs careful handling.
+- Complex inquiries require a clear human fallback.

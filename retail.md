@@ -1,25 +1,65 @@
-# AI Use Cases for Retail
+# Retail and E-commerce — AI Use Cases
 
-## 1. Product description generation
+## Overview
 
-Create product descriptions for ecommerce listings from product attributes.
+AI can help retail teams prepare product content, summarize feedback and draft support answers. Strong pilots start with accurate product data and keep publishing decisions under human control.
 
-## 2. Review analysis
+## Common business problems
 
-Summarize customer reviews to detect product issues, satisfaction drivers and recurring complaints.
+- Product information is incomplete or inconsistent across channels.
+- Teams repeat answers about delivery, returns, sizing and availability.
+- Customer reviews are difficult to analyze at scale.
+- Campaign preparation competes with daily operations.
 
-## 3. Customer support assistant
+## Practical AI use cases
 
-Answer common questions about delivery, returns, sizes and product availability.
+| Use case | Business value | Complexity | Example tools |
+|---|---|---|---|
+| Product description drafts | High | Low | Product sheet + LLM + CMS |
+| Review summarization | Medium | Low | Review export + LLM |
+| FAQ response assistance | High | Medium | Approved FAQ + help desk |
+| Inventory alert summaries | Medium | Medium | POS export + Sheets + LLM |
+| Campaign brief generation | Medium | Low | Product calendar + LLM |
 
-## 4. Inventory alert summaries
+## Recommended first pilot
 
-Summarize low-stock or slow-moving products for managers.
+Select 20 products with complete attributes and generate description drafts from a fixed template. Track editing time, factual errors and publishing quality before expanding to the full catalog.
 
-## 5. Campaign brief generation
+## Example Client Scenario
 
-Create simple promotional briefs for seasonal campaigns.
+### Client type
 
-## Suggested first workflow
+Small Moroccan retailer with a physical shop and online catalog.
 
-Start with product description generation or review analysis, because both can be tested with low operational risk.
+### Problem
+
+The team has product specifications but limited time to create consistent descriptions and FAQ answers.
+
+### Workflow
+
+Approved product fields are sent to a structured prompt. AI returns a description and FAQ draft for review in a spreadsheet.
+
+### Tools used
+
+- Product catalog.
+- Spreadsheet.
+- LLM.
+- CMS or e-commerce platform.
+
+### Expected output
+
+- Product title and description draft.
+- Key feature bullets.
+- Approved FAQ draft.
+- Missing-data warning.
+
+### Business impact
+
+The workflow can shorten first-draft preparation while preserving manual checks for specifications, pricing and claims.
+
+## Risks and limits
+
+- AI may invent product features or availability.
+- Brand tone can become generic without clear examples.
+- Pricing, returns and delivery terms must come from current source data.
+- Generated content requires editorial and legal review where relevant.
