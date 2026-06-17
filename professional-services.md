@@ -1,25 +1,67 @@
-# AI Use Cases for Professional Services
+# Professional Services — AI Use Cases
 
-## 1. Intake form summarization
+## Overview
 
-Summarize client intake forms before the first consultation.
+Consulting, accounting, legal and advisory firms can use AI to organize intake information, prepare first drafts and structure meeting notes. Professional judgment and confidentiality controls remain essential.
 
-## 2. Proposal draft assistant
+## Common business problems
 
-Generate structured proposal drafts from client requirements.
+- Client information arrives in unstructured forms and emails.
+- Proposal and follow-up drafting repeats similar work.
+- Meeting actions are recorded inconsistently.
+- Internal templates and procedures are difficult to find.
 
-## 3. Meeting note summaries
+## Practical AI use cases
 
-Convert meetings into action items and follow-up emails.
+| Use case | Business value | Complexity | Example tools |
+|---|---|---|---|
+| Intake form summarization | High | Low | Forms + LLM |
+| Proposal outline drafting | High | Medium | Templates + LLM + Docs |
+| Meeting summary and actions | High | Low | Notes + LLM + CRM |
+| Internal knowledge assistant | Medium | High | Approved documents + search + LLM |
+| Content brief generation | Medium | Low | Client questions + LLM |
 
-## 4. Knowledge base assistant
+## Recommended first pilot
 
-Help teams find internal procedures, templates and client deliverables.
+Start with meeting summaries from approved notes. Produce decisions, action items and a follow-up draft, then require the meeting owner to correct and approve the result.
 
-## 5. Content brief generation
+## Example Client Scenario
 
-Create educational article outlines based on client questions.
+### Client type
 
-## Suggested first workflow
+Small consulting or advisory firm.
 
-Start with meeting summaries or intake form summarization because both save time and keep humans in control of client communication.
+### Problem
+
+Consultants spend time turning meeting notes into action lists, CRM updates and follow-up messages.
+
+### Workflow
+
+Approved notes are converted into a structured draft. A consultant reviews the output before updating records or contacting the client.
+
+### Tools used
+
+- Meeting notes.
+- LLM.
+- Document template.
+- CRM or spreadsheet.
+- Email.
+
+### Expected output
+
+- Meeting summary.
+- Decisions and open questions.
+- Action items with owners.
+- CRM note draft.
+- Follow-up email draft.
+
+### Business impact
+
+The firm can test whether documentation becomes faster and more consistent without delegating professional judgment to AI.
+
+## Risks and limits
+
+- Confidential client data requires approved tools and access controls.
+- Summaries may omit important nuance.
+- Legal, financial or professional advice must be reviewed by qualified people.
+- Recording and transcription may require consent.
