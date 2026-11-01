@@ -1,6 +1,29 @@
+<!-- teto-theme:banner:start -->
+<p align="center">
+  <img src=".github/readme-assets/banner.svg" width="100%" alt="Morocco AI · SMB Use Cases — From AI opportunities to focused pilot projects" />
+</p>
+<!-- teto-theme:banner:end -->
+
 # Morocco AI SMB Use Cases
 
 Practical AI use cases for Moroccan SMBs by sector, complexity and business value.
+
+<!-- teto-theme:navigation:start -->
+<p>
+  <a href="#how-to-use"><img src=".github/readme-assets/start.svg" width="148" height="36" alt="Get started" /></a>
+  <a href="#quick-access"><img src=".github/readme-assets/resources.svg" width="148" height="36" alt="Resources" /></a>
+  <a href="https://github.com/mhdteto"><img src=".github/readme-assets/profile.svg" width="148" height="36" alt="GitHub profile" /></a>
+</p>
+
+## Quick access
+
+| Resource | Open |
+| :--- | :--- |
+| Use the library | [Open →](docs/how-to-use-this-library.md) |
+| Prioritization matrix | [Open →](prioritization-matrix.md) |
+| Plan an AI pilot | [Open →](docs/ai-pilot-planning-template.md) |
+
+<!-- teto-theme:navigation:end -->
 
 ## Why it matters
 
